@@ -87,7 +87,7 @@ $('.click-here').on('click', function() {
 })
 
 function randomFilm() {
-	let random = Math.floor(Math.random() * 28);
+	let random = Math.floor(Math.random() * 42);
 	let film = [];
 
 	if( random === 0 ) film = ['tt9000302', '"One of the best Indonesian psychological horror movie."'];
@@ -113,13 +113,27 @@ function randomFilm() {
 	if( random === 20 ) film = ['tt3896198', '"One of the best Marvel films."'];
 	if( random === 21 ) film = ['tt0110912', '"Jules will always be my favorite character in cinema history!"'];
 	if( random === 22 ) film = ['tt7221388', '"This show is badass!"'];
-	if( random === 22 ) film = ['tt0111161', '"Rewatching this whenever I feel down."'];
+	if( random === 23 ) film = ['tt0111161', '"Rewatching this whenever I feel down."'];
 	if( random === 24 ) film = ['tt1457767', '"James Wan\'s horror films will always be my favorite."'];
 	if( random === 25 ) film = ['tt6763664', '"One of the best horror show I\'ve ever seen."'];
 	if( random === 26 ) film = ['tt1190634', '"Bored of superhero \'save the world\' kind of film? This show is what you need!"'];
 	if( random === 27 ) film = ['tt0264464', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 28 ) film = ['tt0137523', '<span style="color: red;font-style: italic;">no review added yet</span>'];
-	
+	if( random === 29 ) film = ['tt2861424', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 30 ) film = ['tt0353969', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 31 ) film = ['tt0095327', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 32 ) film = ['tt3331846', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 33 ) film = ['tt8946378', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 34 ) film = ['tt0948470', '"From the bottom of my heart I would say this is the best Spider-Man. The suit, actors, theme, and more."'];
+	if( random === 35 ) film = ['tt0454876', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 36 ) film = ['tt2103281', '"The best one from Planet of the Apes trilogy."'];
+	if( random === 37 ) film = ['tt2380307', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 38 ) film = ['tt1232829', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 39 ) film = ['tt2294449', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 40 ) film = ['tt0109830', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 41 ) film = ['tt0107048', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 42 ) film = ['tt0099653', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 42 ) film = ['tt0118571', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 
 	return film;
 }
