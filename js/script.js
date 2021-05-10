@@ -102,7 +102,7 @@ function randomFilm() {
 	if( random === 9 ) film = ['tt4911656', '"Realistic, romantic, and terrific. My most favorite work from Joko Anwar."'];
 	if( random === 10 ) film = ['tt1392214', '"One of the best thriller-mystery film I have ever seen, until now."'];
 	if( random === 11 ) film = ['tt4574334', '"One of my favorite Netflix show. 80s era is the best."'];
-	if( random === 12 ) film = ['tt12361974', '"ZSJL is more than just comicbook film, it is a masterpiece of cinema."'];
+	if( random === 12 ) film = ['tt12361974', '"ZSJL is more than just a comicbook film, it is a masterpiece of cinema."'];
 	if( random === 13 ) film = ['tt2085059', '"Watch the 1st episode of Black Mirror and you\'re gonna see how amazing this show is."'];
 	if( random === 14 ) film = ['tt0088763', '"A very entertaining time travel movie, never gets old."'];
 	if( random === 15 ) film = ['tt0120338', '"It feels like you\'re in Titanic when watching this, beautiful and terrifying."'];
