@@ -1,0 +1,180 @@
+hr {
+	background-color: #550096;
+	height: 1px;
+}
+.card-description {
+	border: none;
+	margin-bottom: -15px;
+}
+body {
+	height: 1000px;
+}
+
+/* nav */
+	.navbar-brand {
+		font-size: 28px;
+	}
+
+
+/* search */
+	#search-input-1, #search-input-2 {
+		border: 1px solid #550096;
+	}
+	#search-button-1, #search-button-2 {
+		border: none;
+		transition: .3s;
+	}
+	#search-button-1:hover, #search-button-2:hover {
+		background-color: #550096;
+	}
+
+
+/* result */
+	.result {
+		cursor: pointer;
+		transition: .3s;
+	}
+	.result:hover {
+		background-color: #343a40;
+		color: #fff;
+	}
+
+/* film-detail */
+	.film-detail .info p {
+		font-size: 16px;
+	}
+	.film-detail .card {
+		border-radius: 10px;
+	}
+
+	/* film-detail-1 */
+	.film-detail .awards-1 {
+		color: white;
+		background-color: #343a40;
+	}
+	.film-detail .box-office-1 {
+		color: white;
+		background-color: #550096;
+	}
+	.film-detail .metascore-1 {
+		color: white;
+		background-color: #343a40;
+	}
+	.film-detail .rating-1 {
+		color: white;
+		background-color: #550096;
+	}
+	.film-detail .votes-1 {
+		color: white;
+		background-color: #343a40;
+	}
+
+	/* film-detail-2 */
+	.film-detail .awards-2 {
+		color: white;
+		background-color: #550096;
+	}
+	.film-detail .box-office-2 {
+		color: white;
+		background-color: #343a40;
+	}
+	.film-detail .metascore-2 {
+		color: white;
+		background-color: #550096;
+	}
+	.film-detail .rating-2 {
+		color: white;
+		background-color: #343a40;
+	}
+	.film-detail .votes-2 {
+		color: white;
+		background-color: #550096;
+	}
+
+
+
+
+/* RESPONSIVE */
+@media (min-width: 1200px) {
+	.grid {
+		display: grid;
+		grid-template-areas: "img title"
+	        "awards awards"
+	        "boxOffice boxOffice"
+	        "metascore metascore"
+	        "rating rating"
+	        "votes votes";
+	    justify-content: start;
+	    grid-template-columns: 1fr 2fr;
+	}
+	.film-detail .image {
+		grid-area: img;
+		display: grid;
+		align-content: center;
+	}
+	.film-detail .info {
+		grid-area: title;
+		margin-left: 20px;
+	}
+	.film-detail .awards-1 {
+		grid-area: awards;
+	}
+	.film-detail .box-office-1 {
+		grid-area: boxOffice;
+	}
+	.film-detail .metascore-1 {
+		grid-area: metascore;
+	}
+	.film-detail .rating-1 {
+		grid-area: rating;
+	}
+	.film-detail .votes-1 {
+		grid-area: votes;
+	}
+	.film-detail .awards-2 {
+		grid-area: awards;
+	}
+	.film-detail .box-office-2 {
+		grid-area: boxOffice;
+	}
+	.film-detail .metascore-2 {
+		grid-area: metascore;
+	}
+	.film-detail .rating-2 {
+		grid-area: rating;
+	}
+	.film-detail .votes-2 {
+		grid-area: votes;
+	}
+}
+
+@media (max-width: 1200px) {
+	.film-detail {
+		margin-top: 20px;
+	}
+	.film-detail .poster {
+		height: 400px;
+		margin-bottom: 20px;
+	}
+	.film-detail .info p {
+		margin-top: -5px;
+	}
+	.film-detail .film-title, .film-detail .film-genre {
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.awards-h2, .box-office-h2, .metascore-h2, .rating-h2, .votes-h2 {
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 600px) {
+	#title {
+		font-size: 32px;
+	}
+	#description {
+		font-size: 18px;
+	}
+}

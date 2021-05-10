@@ -1,0 +1,67 @@
+hr {
+	background-color: #550096;
+	height: 1px;
+}
+.card-description {
+	border: none;
+}
+
+/* nav */
+.navbar-brand {
+	font-size: 28px;
+}
+
+/* card */
+#film-recommendation .card {
+	background-color: #343a40;
+	color: white;
+	border-radius: 10px;
+}
+#film-recommendation .card-2, #film-recommendation .card-4, #film-recommendation .card-6 {
+	background-color: #550096;
+}
+
+/* button */
+.click-here {
+	border: none;
+}
+.click-here:hover {
+	background-color: #550096;
+	transition: .3s;
+}
+
+/* film-recommendation */
+.fade-in-faster {
+	opacity: 0;
+	animation: fadein 3s forwards;
+}
+.fade-in {
+	opacity: 0;
+	animation: fadein 2s 2s forwards;
+}
+@keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 1;  }
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+	.awards-h2, .box-office-h2, .metascore-h2, .rating-h2, .votes-h2, .short-review-h2 {
+		font-size: 28px;
+	}
+	.awards-h5, .box-office-h5, .metascore-h5, .rating-h5, .votes-h5, .short-review-h5 {
+		font-size: 16px;
+	}
+	.film-title, .film-year, .film-genre {
+		text-align: center;
+	}
+}
+@media (max-width: 600px) {
+	#title {
+		font-size: 32px;
+	}
+	#description {
+		font-size: 18px;
+	}
+}
