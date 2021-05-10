@@ -87,7 +87,7 @@ $('.click-here').on('click', function() {
 })
 
 function randomFilm() {
-	let random = Math.floor(Math.random() * 29);
+	let random = Math.floor(Math.random() * 28);
 	let film = [];
 
 	if( random === 0 ) film = ['tt9000302', '"One of the best Indonesian psychological horror movie."'];
