@@ -39,7 +39,7 @@ $('.click-here').on('click', function() {
 						      </div>
 						    </div>
 						  </div>
-						  <div class="col-md-5 col-12 mb-3 fade-in">
+						  <div class="col-md-5 col-sm-6 col-12 mb-3 fade-in">
 						    <div class="card card-2">
 						      <div class="card-body">
 						        <h2 class="font-weight-bold box-office-h2">${film.BoxOffice}</h2>
@@ -47,7 +47,7 @@ $('.click-here').on('click', function() {
 						      </div>
 						    </div>
 						  </div>
-						  <div class="col-md-5 col-12 mb-3 fade-in">
+						  <div class="col-md-5 col-sm-6 col-12 mb-3 fade-in">
 						    <div class="card card-3">
 						      <div class="card-body">
 						        <h2 class="font-weight-bold metascore-h2">${film.Metascore}</h2>
@@ -55,7 +55,7 @@ $('.click-here').on('click', function() {
 						      </div>
 						    </div>
 						  </div>
-						  <div class="col-md-5 col-12 mb-3 fade-in">
+						  <div class="col-md-5 col-sm-6 col-12 mb-3 fade-in">
 						    <div class="card card-4">
 						      <div class="card-body">
 						        <h2 class="font-weight-bold rating-h2">${film.imdbRating}</h2>
@@ -63,7 +63,7 @@ $('.click-here').on('click', function() {
 						      </div>
 						    </div>
 						  </div>
-						  <div class="col-md-5 col-12 mb-3 fade-in">
+						  <div class="col-md-5 col-sm-6 col-12 mb-3 fade-in">
 						    <div class="card card-5">
 						      <div class="card-body">
 						        <h2 class="font-weight-bold votes-h2">${film.imdbVotes}</h2>
