@@ -87,7 +87,7 @@ $('.click-here').on('click', function() {
 })
 
 function randomFilm() {
-	let random = Math.floor(Math.random() * 42);
+	let random = Math.floor(Math.random() * 44);
 	let film = [];
 
 	if( random === 0 ) film = ['tt9000302', '"One of the best Indonesian psychological horror movie."'];
@@ -133,7 +133,9 @@ function randomFilm() {
 	if( random === 40 ) film = ['tt0109830', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 41 ) film = ['tt0107048', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 42 ) film = ['tt0099653', '<span style="color: red;font-style: italic;">no review added yet</span>'];
-	if( random === 42 ) film = ['tt0118571', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 43 ) film = ['tt0118571', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 44 ) film = ['tt5105250', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 45 ) film = ['tt0499549', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 
 	return film;
 }
