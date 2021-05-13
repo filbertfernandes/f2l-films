@@ -124,7 +124,7 @@ function randomFilm() {
 	if( random === 31 ) film = ['tt0095327', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 32 ) film = ['tt3331846', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 33 ) film = ['tt8946378', '<span style="color: red;font-style: italic;">no review added yet</span>'];
-	if( random === 34 ) film = ['tt0948470', '"From the bottom of my heart I would say this is the best Spider-Man. The suit, actors, theme, and more."'];
+	if( random === 34 ) film = ['tt0948470', '"A very underrated Spider-Man. It has an amazing suit, actors, theme, and more."'];
 	if( random === 35 ) film = ['tt0454876', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 36 ) film = ['tt2103281', '"The best one from Planet of the Apes trilogy."'];
 	if( random === 37 ) film = ['tt2380307', '<span style="color: red;font-style: italic;">no review added yet</span>'];
@@ -136,6 +136,7 @@ function randomFilm() {
 	if( random === 43 ) film = ['tt0118571', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 44 ) film = ['tt0103064', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 45 ) film = ['tt0499549', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 46 ) film = ['tt8237172', '"A great start for Bumilangit Cinematic Universe."'];
 
 	return film;
 }
