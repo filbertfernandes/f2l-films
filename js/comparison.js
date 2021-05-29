@@ -12,7 +12,7 @@ function searchMovie(number) {
 		success: function(result) {
 			if(result.Response == "True") {
 				let films = result.Search;
-				console.log(number)
+				
 				$(`.film-detail-${number}`).removeClass('grid');
 
 				$.each(films, function(i, data) {
