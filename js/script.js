@@ -87,7 +87,7 @@ $('.click-here').on('click', function() {
 })
 
 function randomFilm() {
-	let random = Math.floor(Math.random() * 50);
+	let random = Math.floor(Math.random() * 51);
 	let film = [];
 
 	if( random === 0 ) film = ['tt9000302', '"One of the best Indonesian psychological horror movie."'];
@@ -141,6 +141,7 @@ function randomFilm() {
 	if( random === 48 ) film = ['tt0361748', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 49 ) film = ['tt3065204', '<span style="color: red;font-style: italic;">no review added yet</span>'];
 	if( random === 50 ) film = ['tt0369610', '<span style="color: red;font-style: italic;">no review added yet</span>'];
+	if( random === 51 ) film = ['tt0816692', '"The GREATEST Sci-Fi movie I\'ve ever watched. Every aspect of this movie are PERFECT."'];
 
 	return film;
 }
