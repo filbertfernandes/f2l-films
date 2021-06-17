@@ -22,11 +22,12 @@ hr {
 }
 
 /* button */
-.click-here {
+.genre-btn {
 	border: none;
 }
 .click-here:hover {
-	background-color: #550096;
+	background-color: #343a40;
+	color: #fff;
 	transition: .3s;
 }
 
